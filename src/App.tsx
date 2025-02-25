@@ -18,7 +18,7 @@ function App() {
       setSelectedTags((arr) => arr.slice(0, -1))
       
       reset(count - 1)
-    });
+    }, 10);
   }
   
   return (

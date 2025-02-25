@@ -2,7 +2,7 @@ import { AnchorHTMLAttributes } from "react"
 
 export function Credits() {
   return (
-    <div className="absolute text-black left-0 top-0 w-full mt-10 lg:mt-20 px-3 lg:px-40 flex flex-col lg:flex-row lg:justify-between"
+    <div className="text-black w-full mt-10 lg:mt-20 px-3 lg:px-40 flex flex-col lg:flex-row lg:justify-between"
     >
       <span>
         Coded by <Link href="https://x.com/Wilfried_Ng23">Wilfried Ngassarou</Link>
