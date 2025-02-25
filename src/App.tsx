@@ -2,6 +2,7 @@ import { useState } from "react"
 import { Tag, tags } from "./constants/tags"
 import clsx from "clsx";
 import { AnimatePresence, motion } from "motion/react";
+import { Credits } from "./components/credits";
 
 function App() {
   const [selectedTags, setSelectedTags] = useState<Tag[]>([])
@@ -22,6 +23,7 @@ function App() {
   
   return (
     <section className="w-full h-dvh overflow-x-hidden">
+      <Credits />
       <section className="w-full h-full flex flex-col pt-10 lg:pt-60 translate-x-[calc(50%-120px)]">
         <section
           className="flex items-center gap-2 relative h-12 z-40"
